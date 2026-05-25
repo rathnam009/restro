@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/rathnam009/restro.git'
+                git branch: 'main', url: 'https://github.com/rathnam009/restro.git'
             }
         }
 
